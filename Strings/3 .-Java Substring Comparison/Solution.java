@@ -42,6 +42,9 @@ public class Solution {
                     }
                     largestFlag = true;
                 }
+
+                if (largestFlag && smallestFlag) continue;
+
             }
         }
 
